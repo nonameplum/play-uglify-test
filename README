@@ -2,3 +2,12 @@ This is your new Play application
 =================================
 
 This file will be packaged with your application, when using `activator dist`.
+
+This is example project to show how to configure sbt-web plugins:
+sbt-uglify
+sbt-gzip
+sbt-digest
+sbt-concat
+
+This project is using modified sbt-concat plugin, becouse of added functionality to define multiple concatenation definitions.
+You can find my sbt-concat here -> https://github.com/nonameplum/sbt-concat

@@ -1,10 +1,5 @@
-(function() {
-  define(function() {
-    var number, opposite;
-    number = 42;
-    return opposite = true;
-  });
+function x() {
+    return "x";
+}
 
-}).call(this);
-
-//# sourceMappingURL=x.js.map
+console.log(x());
